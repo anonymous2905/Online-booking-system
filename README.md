@@ -42,7 +42,7 @@ Create a `.env` file with the following content:
     DB_NAME=ticketing
     ```
 
-Replace `"YOUR PASSWORD"` with your MySQL root password.
+Replace `"YOUR PASSWORD"` with your MySQL root password.Save with ENV File Extension in the Online Booking Folder.
 
 ## Installation
 
