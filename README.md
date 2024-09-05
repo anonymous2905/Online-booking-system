@@ -1,5 +1,7 @@
 # Ticketing System
 
+ Create a branch file and then code on that rather than directly pushing code on the main branch
+
 ## Overview
 
 This project is a ticket booking system designed to offer an enhanced user experience with various features such as a chatbot, payment gateway integration, dynamic ticket pricing, and more. The system supports voice commands and text-to-speech for visitors with disabilities, ensuring accessibility for all users.
