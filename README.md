@@ -14,6 +14,13 @@ CREATE TABLE bookings (
 );
 
 
+GROQ_API_KEY="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" //api for groq (chatbot)
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD="YOUR PASSWORD"
+DB_NAME=ticketing
+
+
 To be done:-
 
 
