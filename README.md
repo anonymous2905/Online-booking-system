@@ -74,7 +74,7 @@ Replace `"YOUR PASSWORD"` with your MySQL root password.
 
 2. Access the application at `http://localhost:5000`.
 
-## Features
+## Features(To Do)
 
 1. **Payment Gateway** - Integration with a payment gateway for secure transactions.
 2. **Chatbot** - Accessible chatbot with voice commands and text-to-speech.
