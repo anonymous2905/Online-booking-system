@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Booking System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Online Booking System</h1>
+    </header>
+    
+    <main>
+        <!-- Booking Form -->
+        <section id="booking-form">
+            <h2>Book a Ticket</h2>
+            <form id="book-ticket-form">
+                <label for="visitor_name">Name:</label>
+                <input type="text" id="visitor_name" name="visitor_name" required>
+                
+                <label for="ticket_type">Ticket Type:</label>
+                <select id="ticket_type" name="ticket_type" required>
+                    <option value="Regular">Regular</option>
+                    <option value="VIP">VIP</option>
+                </select>
+                
+                <label for="show_time">Show Time:</label>
+                <input type="datetime-local" id="show_time" name="show_time" required>
+                
+                <label for="num_tickets">Number of Tickets:</label>
+                <input type="number" id="num_tickets" name="num_tickets" min="1" required>
+                
+                <label for="language">Language:</label>
+                <select id="language" name="language">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <!-- Add more languages as needed -->
+                </select>
+
+                <button type="submit">Book Ticket</button>
+            </form>
+            <p id="booking-message"></p>
+            <p id="booking-number"></p> <!-- Display booking number -->
+        </section>
+        
+        <!-- Get Booking -->
+        <section id="get-booking">
+            <h2>Get Booking Details</h2>
+            <form id="get-booking-form">
+                <label for="booking_number">Booking Number:</label>
+                <input type="text" id="booking_number_input" name="booking_number" required>
+                
+                <button type="submit">Get Booking</button>
+            </form>
+            <p id="booking-details"></p>
+        </section>
+        
+        <!-- Cancel Booking -->
+        <section id="cancel-booking">
+            <h2>Cancel a Booking</h2>
+            <form id="cancel-booking-form">
+                <label for="cancel_booking_number">Booking Number:</label>
+                <input type="text" id="cancel_booking_number" name="cancel_booking_number" required>
+                
+                <button type="submit">Cancel Booking</button>
+            </form>
+            <p id="cancel-message"></p>
+        </section>
+        
+        <!-- Chatbot Interface -->
+        <section id="chatbot">
+            <h2>Chat with Our Bot</h2>
+            <textarea id="chat-input" placeholder="Ask me anything..." rows="4"></textarea>
+            <button id="chat-submit">Send</button>
+            <div id="chat-output"></div>
+        </section>
+    </main>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
