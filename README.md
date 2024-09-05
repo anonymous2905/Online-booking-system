@@ -13,7 +13,7 @@ CREATE TABLE bookings (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-
+Make an .env file for this with env file extension{
 GROQ_API_KEY="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" //api for groq (chatbot)
 
 
@@ -27,6 +27,8 @@ DB_PASSWORD="YOUR PASSWORD"
 
 
 DB_NAME=ticketing
+
+}
 
 
 To be done:-
