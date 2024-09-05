@@ -1,3 +1,19 @@
+mysql code to create the table 
+if using for first time see a youtube video 
+
+
+create schema ticketing;
+CREATE TABLE bookings (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    booking_number VARCHAR(36) NOT NULL UNIQUE,
+    visitor_name VARCHAR(255) NOT NULL,
+    ticket_type VARCHAR(50) NOT NULL,
+    show_time DATETIME NOT NULL,
+    num_tickets INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
 To be done:-
 
 
@@ -44,5 +60,9 @@ To be done:-
 
 
 15.Group Bookings
+
+
 16.Special Needs Assistance(Later)
+
+
 17.Calendar Integration
